@@ -16,7 +16,7 @@ export default function Bienvenido () {
   return (
     <div className={styles.divBienvenido}>
       <div className={styles.overlay}>
-      <h1 className={styles.title}>Emmanuel - LexdeIT</h1>
+      <h1 className={styles.title}>FullStack Developer</h1>
       <Perfil></Perfil>
       <h3 className={styles.subtitle}>{studentName}</h3>
       <ul className={styles.unorderedList}>

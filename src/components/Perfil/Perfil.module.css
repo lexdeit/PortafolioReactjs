@@ -10,13 +10,9 @@
     height: 8em;
     width: 8em;
     transition: 250ms;
-}
-
-.avatar:hover{
-    transition: 250ms;
-    height: 6em;
-    width: 6em;
-    padding: 1em 0em 1em 0em;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 9em;
 }
 
 .nombre{
