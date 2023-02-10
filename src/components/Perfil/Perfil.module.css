@@ -1,0 +1,33 @@
+.div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar{
+    border-radius: 50%;
+    height: 8em;
+    width: 8em;
+    transition: 250ms;
+}
+
+.avatar:hover{
+    transition: 250ms;
+    height: 6em;
+    width: 6em;
+    padding: 1em 0em 1em 0em;
+}
+
+.nombre{
+    font-family: Poppins;
+    color: white;
+    margin: 0em 0em 0em 2em;
+    text-align: center;
+}
+
+.parrafo{
+    font-family: Poppins;
+    color: white;
+    text-align: center;
+}

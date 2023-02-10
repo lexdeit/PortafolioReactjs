@@ -1,0 +1,84 @@
+.divBienvenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vw;
+  background-color: #f6f6f648;
+  background-image: url(https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay{
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  width: 100vw;
+  height: 100vw;
+  background-color: rgba(25, 25, 25, 0.8);
+} 
+
+.title {
+  font-family: Poppins;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: rgb(255, 255, 255)
+}
+
+.subtitle {
+  font-family: Poppins;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: white;
+}
+
+.unorderedList {
+  font-family: Poppins;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 3em;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  height: 15vh;
+  background-color: #040e40;
+  padding: 1em;
+  margin: 5px;
+  font-weight: 500;
+  border-radius: 5%;
+  box-shadow: 0px 1em 1em rgba( 255, 255, 255, .1);
+  transition: 250ms;
+}
+.listItem:hover {
+  transition: 500ms;
+  background-color: #030928;
+  color: white;
+  padding: 1.5em;
+  box-shadow: 0em 4em 7em 0em rgba(0, 136, 255, 0.4);
+  margin: 0em -.2em -.5em -.2em;
+}
+
+.listItem img {
+  width: 50%;
+  object-fit: cover;
+  margin: 15px;
+}
